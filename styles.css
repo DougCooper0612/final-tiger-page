@@ -1,0 +1,157 @@
+body {
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+  }
+  nav {
+    background-color: darkslategray; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    z-index: 1;
+  }
+  nav ul li {
+    float: right;
+    margin-right: 50px;
+    list-style-type: none;
+    text-align: center;
+  }
+  .brand {
+    float: left;
+  }
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+  }
+  .nav-link:hover {
+    color: darksalmon;
+    font-weight: bold;
+  }
+  #brand .nav-link {
+    color: white;
+    font-size: 14pt;
+    font-weight: bold;
+  }
+  #brand .nav-link:hover {
+    color: darksalmon;
+    font-size: 14pt;
+    font-weight: bold;
+  }
+  h1 {
+    font-size: 60pt;
+  }
+  #home {
+    margin-top: 50px;
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    height: 30vh;
+    padding-top: 3em;
+    background: url("./assets/jungle1.jpg") center 75% no-repeat fixed;
+    background-size: cover;
+  }
+  .header-tag {
+    text-align: center;
+    color: darkgoldenrod;
+    text-shadow: 2px 2px 2px black;
+  }
+  h3.header-tag {
+    margin-top: -30px;
+    font-size: 40pt;
+  }
+  h2 {
+    font-family: 'Acme', sans-serif;
+    color: darkgoldenrod;
+  }
+  .main {
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px darkslategrey;
+  }
+  #about {
+    margin-top: 50px;
+    display: inline-block;
+  }
+  #about-picture {
+    width: 30vw;
+    text-align: center;
+  }
+  #profile-pic {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 0.4em;
+    box-shadow: 2px 2px 2px black
+  }
+  #about-content {
+    width: 30vw;
+    text-align: center;  
+    color:white;
+  }
+    #contact-form {
+    margin: auto;
+    margin-top: 100px;
+    width: 30vw;
+    background-color:lightslategrey;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    border-radius: .4em;
+      }
+#contact-form input {
+  width: 90%;
+  margin-bottom: 20px;
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+}
+#contact-form h2 {
+  color: white;
+  font-size: 28pt;
+text-shadow: 2px 2px 2px black;
+}
+textarea {
+  resize: none;
+  height: 200px;
+  width: 90%;
+  margin-bottom: 30px;
+}
+.main2 {
+  text-align: center;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px darkslategrey;
+}
+  #tiger {
+    margin-top: 50px;
+    display: inline-block;
+  }
+  #about-picture2 {
+    width: 30vw;
+    text-align: center;
+    float: left;
+  }
+  #profile-pic2 {
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+    border-radius: 0.4em;
+    box-shadow: 2px 2px 2px black
+  }
+  #about-content2 {
+    width: 30vw;
+    text-align: center;  
+    float: right;
+    margin-top: 250px;
+  }
+ .fa-paw {
+   transition: transform 2s;
+ }
+  .fa-paw:hover {
+    color:orangered;
+transform: rotate(360deg);
+  }
